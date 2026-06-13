@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Roddrry</title>
-    <link>https://Roddrry.github.io/</link>
+    <link>https://rroddrry.github.io/</link>
     <description>Recent content on Roddrry</description>
     <generator>Hugo</generator>
     <language>es</language>
-    <atom:link href="https://Roddrry.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rroddrry.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://Roddrry.github.io/about/</link>
+      <link>https://rroddrry.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://Roddrry.github.io/about/</guid>
+      <guid>https://rroddrry.github.io/about/</guid>
       <description>&lt;h1 id=&#34;-&#34;&gt;-&amp;ndash;&lt;/h1&gt;
 &lt;h1 id=&#34;title-sobre-mí&#34;&gt;title: &amp;ldquo;Sobre mí&amp;rdquo;&lt;/h1&gt;
 &lt;h1 id=&#34;layout-about&#34;&gt;layout: &amp;ldquo;about&amp;rdquo;&lt;/h1&gt;
