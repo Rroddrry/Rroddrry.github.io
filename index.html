@@ -1,234 +1,131 @@
 <!DOCTYPE html>
-<html lang="es" dir="auto" data-theme="dark">
-
+<html lang="es">
 <head>
-	<meta name="generator" content="Hugo 0.163.0"><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>Roddrry</title>
-
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="https://rroddrry.github.io/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://rroddrry.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://rroddrry.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://rroddrry.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://rroddrry.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://rroddrry.github.io/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://rroddrry.github.io/index.xml" title="rss">
-<link rel="alternate" hreflang="es" href="https://rroddrry.github.io/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "light") {
-        document.querySelector("html").dataset.theme = 'light';
-    }
-
-</script><meta property="og:url" content="https://rroddrry.github.io/">
-  <meta property="og:site_name" content="Roddrry">
-  <meta property="og:title" content="Roddrry">
-  <meta property="og:locale" content="es">
-  <meta property="og:type" content="website">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Roddrry">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Roddrry",
-  "url": "https://rroddrry.github.io/",
-  "description": "",
-  "logo": "https://rroddrry.github.io/favicon.ico",
-  "sameAs": [
-      "https://github.com/Rroddrry", "https://linkedin.com/in/tuusuario"
-  ]
-}
-</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roddrry — Portafolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0a0a0f;--bg2:#13131a;--accent:#7c3aed;--accent2:#a855f7;--text:#e2e8f0;--muted:#94a3b8;--border:#2d2d3d}
+body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-height:100vh}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:1.2rem 2.5rem;background:rgba(10,10,15,0.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.2rem;color:var(--text);text-decoration:none}
+.logo span{color:var(--accent2)}
+nav ul{list-style:none;display:flex;gap:2rem}
+nav a{color:var(--muted);text-decoration:none;font-size:.9rem;font-weight:500;transition:color .2s}
+nav a:hover{color:var(--text)}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:0 2.5rem;max-width:900px;margin:0 auto}
+.htag{font-size:.8rem;color:var(--accent2);letter-spacing:.15em;text-transform:uppercase;margin-bottom:1.5rem}
+h1{font-family:'Space Grotesk',sans-serif;font-size:clamp(3rem,8vw,6rem);font-weight:700;line-height:1.05;letter-spacing:-.04em;margin-bottom:1.5rem}
+.cursor{display:inline-block;width:3px;height:.85em;background:var(--accent2);vertical-align:middle;margin-left:4px;animation:blink 1s step-end infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+.hline{width:60px;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:2px;margin-bottom:1.5rem}
+.hero p{font-size:1.15rem;color:var(--muted);max-width:520px;margin-bottom:2.5rem;line-height:1.8}
+.btns{display:flex;gap:1rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.75rem 1.8rem;border-radius:6px;font-weight:500;font-size:.95rem;text-decoration:none;transition:all .2s;border:none;font-family:'Inter',sans-serif;cursor:pointer}
+.btn-p{background:var(--accent);color:#fff}
+.btn-p:hover{background:var(--accent2);transform:translateY(-2px)}
+.btn-o{background:transparent;color:var(--text);border:1px solid var(--border)}
+.btn-o:hover{border-color:var(--accent2);color:var(--accent2);transform:translateY(-2px)}
+section{max-width:900px;margin:0 auto;padding:6rem 2.5rem}
+.slabel{font-size:.75rem;color:var(--accent2);letter-spacing:.15em;text-transform:uppercase;margin-bottom:.75rem}
+.stitle{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.8rem,4vw,2.5rem);font-weight:700;letter-spacing:-.03em;margin-bottom:3rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.2rem}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:1.5rem;transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--accent);transform:translateY(-3px)}
+.icon{font-size:1.6rem;margin-bottom:.75rem}
+.card h3{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1rem;margin-bottom:.4rem}
+.card p{font-size:.85rem;color:var(--muted);line-height:1.6}
+.post{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:2rem;margin-bottom:1.2rem;transition:border-color .2s,transform .2s}
+.post:hover{border-color:var(--accent2);transform:translateY(-3px)}
+.post-tag{font-size:.7rem;color:var(--accent2);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem}
+.post h3{font-family:'Space Grotesk',sans-serif;font-size:1.2rem;font-weight:700;margin-bottom:.5rem}
+.post p{font-size:.9rem;color:var(--muted);line-height:1.7;margin-bottom:1rem}
+.post-content{font-size:.95rem;color:var(--text);line-height:1.8}
+.post-content h4{font-family:'Space Grotesk',sans-serif;font-size:1rem;color:var(--accent2);margin:1.2rem 0 .5rem}
+.post-content ul{padding-left:1.2rem;color:var(--muted)}
+.post-content li{margin-bottom:.3rem}
+.post-content blockquote{border-left:3px solid var(--accent);padding-left:1rem;color:var(--muted);font-style:italic;margin:1rem 0}
+.divider{height:1px;background:var(--border);max-width:900px;margin:0 auto}
+.contact{background:var(--bg2);border:1px solid var(--border);border-radius:16px;padding:3rem;text-align:center}
+.contact h2{font-family:'Space Grotesk',sans-serif;font-size:2rem;font-weight:700;letter-spacing:-.03em;margin-bottom:1rem}
+.contact p{color:var(--muted);margin-bottom:2rem}
+footer{text-align:center;padding:2rem;color:var(--muted);font-size:.82rem;border-top:1px solid var(--border)}
+</style>
 </head>
-<body class="list" id="top">
-    <header class="header">
-    <nav class="header-nav">
-        <div class="logo">
-            <a href="https://rroddrry.github.io/" accesskey="h" title="Roddrry (Alt + H)">Roddrry</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu" class="menu">
-            <li>
-                <a href="https://rroddrry.github.io/about/" title="Sobre mí">
-                    <span>Sobre mí</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://rroddrry.github.io/projects/" title="Proyectos">
-                    <span>Proyectos</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main"> 
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>Hola, soy Roddrry 👋</h1>
-    </header>
-    <div class="entry-content md-content">
-        
-        <p>Desarrollador apasionado por crear cosas digitales.
-Bienvenido a mi portafolio personal.</p>
-
-    </div>
-    <footer class="entry-footer">
-        <div class="social-icons" >
-    <a href="https://github.com/Rroddrry" target="_blank" rel="noopener noreferrer me"
-        title="Github">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path
-        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-    </path>
-</svg>
-    </a>
-    <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer me"
-        title="Linkedin">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-    <rect x="2" y="9" width="4" height="12"></rect>
-    <circle cx="4" cy="4" r="2"></circle>
-</svg>
-    </a>
+<body>
+<nav>
+<a class="logo" href="#">Roddrry<span>.</span></a>
+<ul>
+<li><a href="#habilidades">Habilidades</a></li>
+<li><a href="#blog">Blog</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+<div class="hero">
+<p class="htag">Portafolio personal</p>
+<h1><span id="typed"></span><span class="cursor"></span></h1>
+<div class="hline"></div>
+<p>Desarrollador apasionado por la ciberseguridad y las soluciones digitales.</p>
+<div class="btns">
+<a href="#habilidades" class="btn btn-p">Ver habilidades</a>
+<a href="#contacto" class="btn btn-o">Contáctame</a>
 </div>
-
-    </footer>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>-– title: “Hacking Etico y Pentesting: Mi Experiencia” date: 2026-06-13 draft: false description: “Lo que aprendi realizando pruebas de penetracion en entornos reales.” tags: [“ciberseguridad”, “pentesting”] -– ## Mi camino en el pentesting Cuando comence en ciberseguridad, entendi rapidamente que la mejor manera de defender un sistema es pensar como un atacante. ## Lo que hace un pentester - **Reconocimiento** — mapeo del objetivo - **Escaneo** — identificacion de servicios vulnerables - **Explotacion** — acceso controlado al sistema - **Reporte** — documentacion clara de hallazgos ## Herramientas que uso - Nmap — escaneo de puertos - Burp Suite — analisis web - Metasploit — explotacion - Kali Linux — sistema base ## Lo mas importante que aprendi La mayoria de vulnerabilidades criticas vienen de configuraciones incorrectas y contrasenas debiles. &gt; “Un sistema seguro es aquel que ha sido atacado y mejorado.” </p>
-  </div>
-  <footer class="entry-footer">
-
-</footer>
-  <a class="entry-link" aria-label="post link to " href="https://rroddrry.github.io/posts/hacking-etico/"></a>
-</article>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2026 <a href="https://rroddrry.github.io/">Roddrry</a></span> · 
-
-    
-    
-    <span>
-        Powered by
-        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
-        <polyline points="17 11 12 6 7 11"></polyline>
-        <polyline points="17 18 12 13 7 18"></polyline>
-    </svg>
-</a>
-
+</div>
+<div class="divider"></div>
+<section id="habilidades">
+<p class="slabel">Lo que sé hacer</p>
+<h2 class="stitle">Habilidades</h2>
+<div class="grid">
+<div class="card"><div class="icon">🔐</div><h3>Ciberseguridad</h3><p>Hacking ético, pentesting y análisis de vulnerabilidades.</p></div>
+<div class="card"><div class="icon">💻</div><h3>Desarrollo web</h3><p>HTML, CSS y JavaScript para crear interfaces modernas.</p></div>
+<div class="card"><div class="icon">⚙️</div><h3>Herramientas</h3><p>Git, GitHub, Kali Linux, Nmap, Burp Suite.</p></div>
+<div class="card"><div class="icon">📱</div><h3>Responsivo</h3><p>Sitios que funcionan en cualquier dispositivo.</p></div>
+</div>
+</section>
+<div class="divider"></div>
+<section id="blog">
+<p class="slabel">Mis artículos</p>
+<h2 class="stitle">Blog</h2>
+<div class="post">
+<p class="post-tag">Ciberseguridad · Jun 2026</p>
+<h3>Hacking Ético y Pentesting: Mi Experiencia</h3>
+<p>Lo que aprendí realizando pruebas de penetración en entornos reales.</p>
+<div class="post-content">
+<h4>Mi camino en el pentesting</h4>
+<p>Cuando comencé en ciberseguridad, entendí que la mejor manera de defender un sistema es pensar como un atacante. El hacking ético me permitió encontrar vulnerabilidades antes de que alguien malintencionado las explote.</p>
+<h4>Fases que sigo</h4>
+<ul>
+<li><strong>Reconocimiento</strong> — mapeo del objetivo sin levantar alertas</li>
+<li><strong>Escaneo</strong> — identificación de servicios vulnerables</li>
+<li><strong>Explotación</strong> — acceso controlado al sistema</li>
+<li><strong>Reporte</strong> — documentación clara de hallazgos</li>
+</ul>
+<h4>Herramientas que uso</h4>
+<ul>
+<li>Nmap — escaneo de puertos</li>
+<li>Burp Suite — análisis de aplicaciones web</li>
+<li>Metasploit — framework de explotación</li>
+<li>Kali Linux — sistema operativo base</li>
+</ul>
+<blockquote>Un sistema seguro es aquel que ha sido atacado y mejorado.</blockquote>
+</div>
+</div>
+</section>
+<div class="divider"></div>
+<section id="contacto">
+<div class="contact">
+<h2>¿Trabajamos juntos?</h2>
+<p>Disponible para proyectos de ciberseguridad y desarrollo web.</p>
+<a href="https://github.com/Rroddrry" class="btn btn-p">Ver GitHub</a>
+</div>
+</section>
+<footer><p>Hecho con 💜 por Roddrry · 2026</p></footer>
 <script>
-    let menu = document.getElementById('menu');
-    if (menu) {
-        
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
-        
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var toplink = document.getElementById("top-link");
-    window.onscroll = function () {
-        const scrollThreshold = window.innerHeight;
-        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
-            toplink.classList.remove("hidden");
-        } else {
-            toplink.classList.add("hidden");
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
+const name='Roddrry';const el=document.getElementById('typed');let i=0;
+function type(){if(i<=name.length){el.textContent=name.slice(0,i);i++;setTimeout(type,110);}}
+setTimeout(type,400);
 </script>
 </body>
-
 </html>
