@@ -38,43 +38,37 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://rroddrry.github.io/posts/hacking-etico/</guid>
       <description>&lt;h1 id=&#34;-&#34;&gt;-&amp;ndash;&lt;/h1&gt;
-&lt;h1 id=&#34;title-hacking-ético-y-pentesting-mi-experiencia&#34;&gt;title: &amp;ldquo;Hacking Ético y Pentesting: Mi Experiencia&amp;rdquo;&lt;/h1&gt;
+&lt;h1 id=&#34;title-hacking-etico-y-pentesting-mi-experiencia&#34;&gt;title: &amp;ldquo;Hacking Etico y Pentesting: Mi Experiencia&amp;rdquo;&lt;/h1&gt;
 &lt;h1 id=&#34;date-2026-06-13&#34;&gt;date: 2026-06-13&lt;/h1&gt;
 &lt;h1 id=&#34;draft-false&#34;&gt;draft: false&lt;/h1&gt;
-&lt;h1 id=&#34;description-lo-que-aprendí-realizando-pruebas-de-penetración-en-entornos-reales&#34;&gt;description: &amp;ldquo;Lo que aprendí realizando pruebas de penetración en entornos reales.&amp;rdquo;&lt;/h1&gt;
-&lt;h1 id=&#34;tags-ciberseguridad-hacking-ético-pentesting&#34;&gt;tags: [&amp;ldquo;ciberseguridad&amp;rdquo;, &amp;ldquo;hacking ético&amp;rdquo;, &amp;ldquo;pentesting&amp;rdquo;]&lt;/h1&gt;
+&lt;h1 id=&#34;description-lo-que-aprendi-realizando-pruebas-de-penetracion-en-entornos-reales&#34;&gt;description: &amp;ldquo;Lo que aprendi realizando pruebas de penetracion en entornos reales.&amp;rdquo;&lt;/h1&gt;
+&lt;h1 id=&#34;tags-ciberseguridad-pentesting&#34;&gt;tags: [&amp;ldquo;ciberseguridad&amp;rdquo;, &amp;ldquo;pentesting&amp;rdquo;]&lt;/h1&gt;
 &lt;h1 id=&#34;--1&#34;&gt;-&amp;ndash;&lt;/h1&gt;
 &lt;h1&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;-mi-camino-en-el-pentesting&#34;&gt;## Mi camino en el pentesting&lt;/h1&gt;
+&lt;h1 id=&#34;x20-mi-camino-en-el-pentesting&#34;&gt; ## Mi camino en el pentesting&lt;/h1&gt;
 &lt;h1&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;cuando-comencé-en-ciberseguridad-entendí-rápidamente-que-la-mejor-manera-de-defender-un-sistema-es-pensar-como-un-atacante-el-hacking-ético-me-permitió-hacer-exactamente-eso-encontrar-vulnerabilidades-antes-de-que-alguien-malintencionado-las-explote&#34;&gt;Cuando comencé en ciberseguridad, entendí rápidamente que la mejor manera de defender un sistema es pensar como un atacante. El hacking ético me permitió hacer exactamente eso: encontrar vulnerabilidades antes de que alguien malintencionado las explote.&lt;/h1&gt;
+&lt;h1 id=&#34;cuando-comence-en-ciberseguridad-entendi-rapidamente-que-la-mejor-manera-de-defender-un-sistema-es-pensar-como-un-atacante&#34;&gt;Cuando comence en ciberseguridad, entendi rapidamente que la mejor manera de defender un sistema es pensar como un atacante.&lt;/h1&gt;
 &lt;h1&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;-lo-que-hace-un-pentester&#34;&gt;## Lo que hace un pentester&lt;/h1&gt;
+&lt;h1 id=&#34;x20-lo-que-hace-un-pentester&#34;&gt; ## Lo que hace un pentester&lt;/h1&gt;
 &lt;h1&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;un-pentester-no-es-un-hacker-malicioso--es-un-profesional-contratado-para-romper-sistemas-con-permiso-documentar-lo-encontrado-y-ayudar-a-corregirlo&#34;&gt;Un pentester no es un hacker malicioso — es un profesional contratado para romper sistemas **con permiso**, documentar lo encontrado y ayudar a corregirlo.&lt;/h1&gt;
+&lt;h1 id=&#34;--reconocimiento--mapeo-del-objetivo&#34;&gt;- **Reconocimiento** — mapeo del objetivo&lt;/h1&gt;
+&lt;h1 id=&#34;--escaneo--identificacion-de-servicios-vulnerables&#34;&gt;- **Escaneo** — identificacion de servicios vulnerables&lt;/h1&gt;
+&lt;h1 id=&#34;--explotacion--acceso-controlado-al-sistema&#34;&gt;- **Explotacion** — acceso controlado al sistema&lt;/h1&gt;
+&lt;h1 id=&#34;--reporte--documentacion-clara-de-hallazgos&#34;&gt;- **Reporte** — documentacion clara de hallazgos&lt;/h1&gt;
 &lt;h1&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;las-fases-que-sigo-en-cada-evaluación&#34;&gt;Las fases que sigo en cada evaluación:&lt;/h1&gt;
+&lt;h1 id=&#34;x20-herramientas-que-uso&#34;&gt; ## Herramientas que uso&lt;/h1&gt;
 &lt;h1&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;--reconocimiento--mapeo-del-objetivo-sin-levantar-alertas&#34;&gt;- **Reconocimiento** — mapeo del objetivo sin levantar alertas&lt;/h1&gt;
-&lt;h1 id=&#34;--escaneo--identificación-de-servicios-y-versiones-vulnerables&#34;&gt;- **Escaneo** — identificación de servicios y versiones vulnerables&lt;/h1&gt;
-&lt;h1 id=&#34;--explotación--acceso-controlado-al-sistema&#34;&gt;- **Explotación** — acceso controlado al sistema&lt;/h1&gt;
-&lt;h1 id=&#34;--reporte--documentación-clara-para-el-equipo-técnico-y-directivo&#34;&gt;- **Reporte** — documentación clara para el equipo técnico y directivo&lt;/h1&gt;
+&lt;h1 id=&#34;--nmap--escaneo-de-puertos&#34;&gt;- Nmap — escaneo de puertos&lt;/h1&gt;
+&lt;h1 id=&#34;--burp-suite--analisis-web&#34;&gt;- Burp Suite — analisis web&lt;/h1&gt;
+&lt;h1 id=&#34;--metasploit--explotacion&#34;&gt;- Metasploit — explotacion&lt;/h1&gt;
+&lt;h1 id=&#34;--kali-linux--sistema-base&#34;&gt;- Kali Linux — sistema base&lt;/h1&gt;
 &lt;h1&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;-herramientas-que-uso&#34;&gt;## Herramientas que uso&lt;/h1&gt;
+&lt;h1 id=&#34;x20-lo-mas-importante-que-aprendi&#34;&gt; ## Lo mas importante que aprendi&lt;/h1&gt;
 &lt;h1&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;-herramienta--para-qué-sirve-&#34;&gt;| Herramienta | Para qué sirve |&lt;/h1&gt;
-&lt;h1 id=&#34;heading&#34;&gt;|&amp;mdash;|&amp;mdash;|&lt;/h1&gt;
-&lt;h1 id=&#34;-nmap--escaneo-de-puertos-y-servicios-&#34;&gt;| Nmap | Escaneo de puertos y servicios |&lt;/h1&gt;
-&lt;h1 id=&#34;-burp-suite--análisis-de-aplicaciones-web-&#34;&gt;| Burp Suite | Análisis de aplicaciones web |&lt;/h1&gt;
-&lt;h1 id=&#34;-metasploit--framework-de-explotación-&#34;&gt;| Metasploit | Framework de explotación |&lt;/h1&gt;
-&lt;h1 id=&#34;-wireshark--análisis-de-tráfico-de-red-&#34;&gt;| Wireshark | Análisis de tráfico de red |&lt;/h1&gt;
-&lt;h1 id=&#34;-kali-linux--sistema-operativo-base-&#34;&gt;| Kali Linux | Sistema operativo base |&lt;/h1&gt;
+&lt;h1 id=&#34;la-mayoria-de-vulnerabilidades-criticas-vienen-de-configuraciones-incorrectas-y-contrasenas-debiles&#34;&gt;La mayoria de vulnerabilidades criticas vienen de configuraciones incorrectas y contrasenas debiles.&lt;/h1&gt;
 &lt;h1&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;-lo-más-importante-que-aprendí&#34;&gt;## Lo más importante que aprendí&lt;/h1&gt;
+&lt;h1 id=&#34;-un-sistema-seguro-es-aquel-que-ha-sido-atacado-y-mejorado&#34;&gt;&amp;gt; &amp;ldquo;Un sistema seguro es aquel que ha sido atacado y mejorado.&amp;rdquo;&lt;/h1&gt;
 &lt;h1&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;la-mayoría-de-las-vulnerabilidades-críticas-no-vienen-de-código-complejo--vienen-de-configuraciones-incorrectas-y-contraseñas-débiles-la-seguridad-empieza-con-lo-básico&#34;&gt;La mayoría de las vulnerabilidades críticas no vienen de código complejo — vienen de **configuraciones incorrectas** y **contraseñas débiles**. La seguridad empieza con lo básico.&lt;/h1&gt;
-&lt;h1&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;-un-sistema-seguro-es-aquel-que-ha-sido-atacado-y-mejorado&#34;&gt;&amp;gt; *&amp;ldquo;Un sistema seguro es aquel que ha sido atacado y mejorado.&amp;rdquo;*&lt;/h1&gt;
 &lt;h1&gt;&lt;/h1&gt;</description>
     </item>
   </channel>
